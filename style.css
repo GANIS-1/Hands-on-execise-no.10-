@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.video-player {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+    margin-bottom: 10px;
+}
+
+.search-form input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+}
+
+.browse-screen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.play-btn, .mute-btn {
+    padding: 8px 16px;
+    margin: 0 5px;
+}
+
+.volume-slider, .progress-slider {
+    width: 100%;
+}
+
+.playlist-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.playlist-item.active {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.video-info {
+    margin-top: 20px;
+}
+
+.view-count {
+    font-weight: bold;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #ecf0f1;
+}
+
+.attached-comment {
+    background-color: #e74c3c;
+    color: #fff;
+}

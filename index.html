@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>B12 Video Player</title>
+</head>
+<body>
+
+    <div class="video-player">
+        <div class="search-form">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+
+        <div class="browse-screen">
+            <!-- Browse screen content goes here -->
+            <img src="video.PNG" alt="Video Thumbnail" height="500">
+            <p>Video Title</p>
+        </div>
+
+        <div class="controls">
+            <button class="play-btn">Play</button>
+            <button class="mute-btn">Mute</button>
+            <input type="range" class="volume-slider" min="0" max="100" value="50">
+        </div>
+
+        <input type="range" class="progress-slider" min="0" max="100" value="0">
+
+        <div class="playlist">
+            <!-- Playlist items go here -->
+            <div class="playlist-item active">Video 1</div>
+            <div class="playlist-item">Video 2</div>
+            <div class="playlist-item">Video 3</div>
+        </div>
+
+        <div class="video-info">
+            <h2>Title of the Video</h2>
+            <p>Description of the video. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Views: <span class="view-count">1000</span></p>
+        </div>
+
+        <div class="comments">
+            <!-- Comments go here -->
+            <div class="comment">Comment 1</div>
+            <div class="comment">Comment 2</div>
+            <div class="comment">Comment 3</div>
+            <div class="comment">Comment 4</div>
+            <div class="comment">Comment 5</div>
+
+            <!-- Attached comment -->
+            <div class="comment attached-comment">Attached Comment</div>
+        </div>
+    </div>
+
+</body>
+</html>
